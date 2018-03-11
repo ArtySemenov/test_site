@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Pizza Delivery"
+date:   2017-01-02 12:08:28 +0000
+category: Work
+tag: Illustration
+thumbnail: /src/img/thumb-delivery.png
+description: "Pizza delivery for very large creatures. New Year fun."
+---
+
+<img class="myImg" src="{{ site.baseurl }}/src/img/delivery.jpg" alt="Pizza delivery">
+

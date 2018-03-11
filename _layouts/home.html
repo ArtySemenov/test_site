@@ -1,0 +1,52 @@
+<!-- Hey stranger, I'm just messing around here. Have fun looking around -->
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+{% include components/head.html %}
+
+<body>
+    {% include components/nav.html %}
+
+
+    <main>
+        {% include components/intro.html %} 
+        
+        {% include components/gallery.html %}
+
+{% include components/what-i-do.html %}
+        {% include components/writing.html %}
+
+        <section class="contact">
+            <h2>Get in touch</h2>
+            <form action="https://formspree.io/azazel_x_@hotmail.co.uk" method="POST" class="cf">
+                <div class="half left cf">
+                    <input type="text" id="input-name" placeholder="Name" name="name">
+                    <label for="input-name">Your name</label>
+                    <input type="email" id="input-email" placeholder="Email address" name="_replyto">
+                    <label for="input-email">Your email</label>
+                    <input type="text" id="input-subject" placeholder="Subject" name="_subject">
+                    <label for="input-subject">Subject</label>
+                    <input type="text" id="input-gotcha" name="_gotcha" style="display:none" />
+                    <label for="input-gotcha">&nbsp;</label>
+                </div>
+                <div class="half right cf">
+                    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+                </div>
+                <input onmouseout="normalBackground(this)" onmouseover="randomBackground(this)" type="submit" value="Aaaaand, go!" id="input-submit">
+            </form>
+        </section>
+
+
+
+
+    </main>
+
+
+    {% include components/footer.html %}
+    {% include components/analytics.html %}
+</body>
+
+</html>
+
+<script type="text/javascript" src="/scripts.js"></script>

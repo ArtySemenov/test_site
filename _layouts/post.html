@@ -1,0 +1,32 @@
+<!-- Hey stranger, I'm just messing around here. Have fun looking around -->
+
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+{% include components/head.html %}
+
+<body>
+    {% include components/nav.html %}
+    <main class="blog-list">
+        <section class="post-body">
+            <a class="back-button" href="javascript:history.back()">Back</a>
+            <h1>{{ page.title }}</h1>
+            <p class="blurb">{{page.description}}</p>
+            {{ page.content }}
+
+        </section>
+        {% include components/imageModal.html %}
+
+
+
+
+
+    </main>
+    {% include components/footer.html %} {% include components/analytics.html %}
+</body>
+
+</html>
+
+<script type="text/javascript" src="/scripts.js"></script>

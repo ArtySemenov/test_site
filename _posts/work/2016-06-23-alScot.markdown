@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Alzheimer Scotland"
+date:   2016-06-23 12:08:28 +0000
+category: Work
+tag: Graphic Design
+thumbnail: /src/img/thumb-AlScot.png
+description: "Agency: The Publishing Bureau. Magazine layout, conference programme, various prints."
+---
+
+<img class="myImg" src="{{ site.baseurl }}/src/img/alscot-final.jpg" alt="Dementia in Scotland Magazine. Alzheimer Scotland.">

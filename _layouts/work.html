@@ -1,0 +1,35 @@
+<!-- Hey stranger, I'm just messing around here. Have fun looking around -->
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+{% include components/head.html %}
+
+<body>
+    {% include components/nav.html %}
+
+
+    <main class="folio">
+        <h2>Portfolio</h2>
+        
+        <div class="gallery-container">
+        
+        {% for post in site.categories["Work"] limit: 9 %}
+        <a href="{{ post.url }}" style="background-image: url({{post.thumbnail}})">
+
+            <div class="desc">
+                <div class="image-container">
+                    <h3>{{ post.title }}</h3>
+                    <p>{{post.description}}</p>
+                    <p><small>{{ post.date | date: "%b %e, %Y" }} &bull; <strong>{{ post.tag }} </strong>&bull;</small></p>
+                </div>
+            </div>
+        </a> {% endfor %}
+    </div>
+        
+        
+    </main>
+    {% include components/footer.html %} {% include components/analytics.html %}
+</body>
+
+</html>

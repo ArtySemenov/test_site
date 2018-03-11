@@ -1,0 +1,32 @@
+<!-- Hey stranger, I'm just messing around here. Have fun looking around -->
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+    {% include components/head.html %}
+
+
+<body>
+    {% include components/nav.html %}
+
+
+    <main class="blog-list">
+        <section class="post-body writing-catalogue">
+        <h2>Writing</h2>
+            <table>
+        <tbody>
+          {% for post in site.categories["Blog"] %}
+          <tr>
+            <td class="table-date text-nowrap">{{ post.date | date: "%B %e, %Y" }}</td>
+            <td class="table-main"><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>       
+          {% endfor %}
+        </tbody>
+      </table>
+        
+        </section>
+    </main>
+    {% include components/footer.html %} {% include components/analytics.html %}
+</body>
+
+</html>

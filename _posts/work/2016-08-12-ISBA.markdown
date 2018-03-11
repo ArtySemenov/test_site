@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "ISBA 2016"
+date:   2016-08-12 12:08:28 +0000
+category: Work
+tag: Graphic Design
+thumbnail: /src/img/thumb-ISBA.png
+description: "Agency: The Publishing Bureau. Conference programme and other collateral"
+---
+
+<img class="myImg" src="{{ site.baseurl }}/src/img/isba2016_final.jpg" alt="ISBA 2016 Conference Programme">

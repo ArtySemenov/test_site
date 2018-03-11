@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "My site"
+date:   2018-02-20 12:08:28 +0000
+category: Work
+tag: Illustration
+thumbnail: /src/img/arty-site-mock.png
+description: "My folio and blog site built with Jekyll"
+---
+
+
+<img class="myImg" src="{{ site.baseurl }}/src/img/arty-site-mock.png" alt="My site across devices">

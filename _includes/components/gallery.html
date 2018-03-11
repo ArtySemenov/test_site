@@ -1,0 +1,18 @@
+<section class="work">
+    <h2>Recent work</h2>
+    <div class="gallery-container">
+        
+        {% for post in site.categories["Work"] limit: 9 %}
+        <a href="{{ post.url }}" style="background-image: url({{post.thumbnail}})">
+
+            <div class="desc">
+                <div class="image-container">
+                    <h3>{{ post.title }}</h3>
+                    <p>{{post.description}}</p>
+                    <p><small>{{ post.date | date: "%b %e, %Y" }} &bull; <strong>{{ post.tag }} </strong>&bull;</small></p>
+                </div>
+            </div>
+        </a> {% endfor %}
+    </div>
+
+</section>

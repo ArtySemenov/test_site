@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "The Daughter of the Sun"
+date:   2014-03-13 12:08:28 +0000
+category: Work
+tag: Illustration
+thumbnail: /src/img/thumb-swamp.png
+description: "My honours project based on atmospheric concept art of the Slavic folklore"
+---
+
+A very hasty, initial sketch of the Baba Yaga's hut simply to establish general mood and character. I was envisioning something more grand and impressive than a simple hut in the forest, but sometimes less is more.
+
+<img class="myImg" src="{{ site.baseurl }}/src/img/Baba_Yaga_Swamp.jpg" alt="Baba Yaga's Swamp">
+
+As Mike Yamada said in Skillful Huntsman, these initial sketches are important to get all the cliches out of your head. This image is what appears in my mind when I hear "Baba Yaga's hut", so it is extremely useful to get it out of my system.
+
+I also used this exercise to explore the possibilities that become available when using non standard composition methods. Instead of normal rule of thirds I used the Golden Ratio, or the Fibonacci spiral. Here it is in action.
+
+<img class="myImg" src="{{ site.baseurl }}/src/img/swamp_fibonacci.jpg" alt="Sketch with fibonacci spiral overlaid">
+
+Although I hate putting my work next to other people's, because usually mine is more rushed and unfinished. Here are the images I used as inspiration and reference.
+
+![Inspiration 1]( {{ site.baseurl }}/src/img/9aae53ec966ec75da654f8726e41fcd8-d304sla.jpg "Inspiration 1")
+
+![Inspiration 2]( {{ site.baseurl }}/src/img/636_max.jpg "Inspiration 2")
+
+![Inspiration 3]( {{ site.baseurl }}/src/img/misty-swamps.jpg "Inspiration 3")
+
+![Inspiration 4]( {{ site.baseurl }}/src/img/tumblr_m7u3vbwUy01qa944oo1_1280.jpg "Inspiration 4")
+
+![Inspiration 5]( {{ site.baseurl }}/src/img/swamp-large-1.jpg "Inspiration 5")
+
+I learned a lot through this project. From setting up basic composition to the correct use of different hard and soft edged brushes.

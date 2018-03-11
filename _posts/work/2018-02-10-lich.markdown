@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Lichen Lich"
+date:   2018-02-10 12:08:28 +0000
+category: Work
+tag: Illustration
+thumbnail: /src/img/thumb-lich.png
+description: "Lichen covered undead female figure of a lich. It's crown is made of mushrooms, that grow abundantly from the moss covered skull."
+---
+
+
+<img class="myImg" src="{{ site.baseurl }}/src/img/lich_final.jpg" alt="Lichen Lich">
