@@ -7,9 +7,9 @@
                     <div class="post-image" style="background-image: url({{post.thumbnail}})">&nbsp;</div>
                     
                     <div class="post-description">
+				  <p><small>{{ post.date | date: "%B %e, %Y" }} &bull; <strong>{{ post.tag }} </strong>&bull;</small></p>
                         <h3>{{ post.title }}</h3>
-                        <p>{{post.description| truncatewords:12}}</p>
-                        <p><small>{{ post.date | date: "%B %e, %Y" }} &bull; <strong>{{ post.tag }} </strong>&bull;</small></p>
+                        <p>{{post.description| truncatewords:20}}</p>
                     </div>
                     
                 </a> {% endfor %}
